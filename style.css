@@ -256,28 +256,28 @@ figcaption {
     transition: 1s ease;
 }
 .figure_blog1 {
-    background: url(/images/blog1.png) 0 0/100% no-repeat;
+    background: url(images/blog1.png) 0 0/100% no-repeat;
  }
 .figure_blog1:hover {
      z-index: 1;
      transform: scale(1.2);
  }
 .figure_blog2 {
-    background: url(/images/blog2.png) 0 0/100%  no-repeat;
+    background: url(images/blog2.png) 0 0/100%  no-repeat;
 }
 .figure_blog2:hover {
     z-index: 1;
     transform: scale(1.2);
 }
 .figure_blog3 {
-    background: url(/images/blog3.png) 0 0/100%  no-repeat;
+    background: url(images/blog3.png) 0 0/100%  no-repeat;
 }
 .figure_blog3:hover {
     z-index: 1;
     transform: scale(1.2);
 }
 .five_figure_fon {
-    background-image: url(/images/blu_img.png) ;
+    background-image: url(images/blu_img.png) ;
     margin-top: calc(480px - 178px);
     height: 178px;
 }
@@ -418,15 +418,15 @@ input, button {
     padding-left: 20px;
 }
 .footer_post li:first-child:before{
-    content: url(/images/f_b1.png);
+    content: url(images/f_b1.png);
     position: relative;
 }
 .footer_post li:last-child:before{
-    content: url(/images/f_b3.png);
+    content: url(images/f_b3.png);
     position: relative;
 }
 .footer_post li:nth-child(even)::before {
-    content: url(/images/f_b2.png);
+    content: url(images/f_b2.png);
     position: relative;
 }
 ::before {
