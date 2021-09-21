@@ -2,6 +2,10 @@
     font-family:"Poppins";
     src: local('Poppins');
 }
+html,body {
+    margin: 0;
+    padding: 0;
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,7 +20,6 @@ a {
 }
 .wrapper {
     margin: 0 auto;
-    position: relative;
     max-width: 1600px;
     height: 100%;
     /* background-color: #fffcf4;   */
@@ -76,7 +79,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 216px;
+    margin-left: 8em;
     padding-top: 150px; 
 }
 .main_best {
@@ -100,7 +103,7 @@ a {
 }
 .main_apple_img {
     margin-top: -300px;
-    margin-left: 1035px;
+    margin-left: 100%;
     transition: 2s ease;
 }
 .main_apple_img:hover {
@@ -221,9 +224,6 @@ figcaption {
 .fore_conteiner {
     white-space: pre-line;
 }
-.section_fore p img {
-    position: relative;
-}
 
  /* SECTION FIVE */
 
@@ -256,28 +256,28 @@ figcaption {
     transition: 1s ease;
 }
 .figure_blog1 {
-    background: url(images/blog1.png) 0 0/100% no-repeat;
+    background: url(/images/blog1.png) 0 0/100% no-repeat;
  }
 .figure_blog1:hover {
      z-index: 1;
      transform: scale(1.2);
  }
 .figure_blog2 {
-    background: url(images/blog2.png) 0 0/100%  no-repeat;
+    background: url(/images/blog2.png) 0 0/100%  no-repeat;
 }
 .figure_blog2:hover {
     z-index: 1;
     transform: scale(1.2);
 }
 .figure_blog3 {
-    background: url(images/blog3.png) 0 0/100%  no-repeat;
+    background: url(/images/blog3.png) 0 0/100%  no-repeat;
 }
 .figure_blog3:hover {
     z-index: 1;
     transform: scale(1.2);
 }
 .five_figure_fon {
-    background-image: url(images/blu_img.png) ;
+    background-image: url(/images/blu_img.png);
     margin-top: calc(480px - 178px);
     height: 178px;
 }
@@ -353,6 +353,7 @@ input, button {
     background-color: #12c6f4;
     color: #010100;
     font-size: 24px;
+    cursor: pointer;
  }
 
 /* FOOTER */
@@ -418,15 +419,15 @@ input, button {
     padding-left: 20px;
 }
 .footer_post li:first-child:before{
-    content: url(images/f_b1.png);
+    content: url(/images/f_b1.png);
     position: relative;
 }
 .footer_post li:last-child:before{
-    content: url(images/f_b3.png);
+    content: url(/images/f_b3.png);
     position: relative;
 }
 .footer_post li:nth-child(even)::before {
-    content: url(images/f_b2.png);
+    content: url(/images/f_b2.png);
     position: relative;
 }
 ::before {
